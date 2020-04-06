@@ -22,6 +22,7 @@ gem 'bootstrap', '~> 4.1.1'
 # gem 'redis', '~> 4.0'
 gem 'font-awesome-rails'
 # Use Active Model has_secure_password
+gem 'devise'
 # gem 'bcrypt', '~> 3.1.7'
 
 # Use Active Storage variant
