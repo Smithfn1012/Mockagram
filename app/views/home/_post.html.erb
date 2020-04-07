@@ -1,9 +1,9 @@
 <section class="post">
   <div class="user">
     <div class="avatar">
-      <% if post.user.avatar.attached? %>
+      <% if post.user %>
         <%= link_to user_path(post.user) do %>
-          <%= image_tag post.user.avatar %>
+          <%= image_tag post.user %>
         <% end %>
       <% end %>
     </div>
