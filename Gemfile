@@ -28,6 +28,7 @@ gem 'kaminari'
 
 gem 'omniauth'
 gem 'omniauth-facebook'
+gem 'omniauth-github'
 gem 'activerecord-session_store'
 
 # Use Active Storage variant
