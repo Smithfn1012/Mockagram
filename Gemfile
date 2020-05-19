@@ -26,6 +26,9 @@ gem 'devise'
 # gem 'bcrypt', '~> 3.1.7'
 gem 'kaminari'
 
+gem 'omniauth'
+gem 'omniauth-facebook'
+
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 
