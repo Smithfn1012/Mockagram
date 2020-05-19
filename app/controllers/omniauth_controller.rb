@@ -11,7 +11,7 @@ class OmniauthController < ApplicationController
     end
 
     def github
-        @user = User.create_from_github_data(request.env['omniauth.auth'])
+        @user = User.create_from_provider_data(request.env['omniauth.auth'])
         if @user.persisted?
             sign_in_and_redirect_user @user
         else
